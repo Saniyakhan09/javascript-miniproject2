@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+#box{
+    height: 40vh;
+    width: 50vw;
+    position: absolute;
+    top:50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    background-color: rgb(101, 101, 155);
+   
+}
+
+.image{
+    position: absolute;
+    /* position: relative; */
+    height: 100px;
+    width: 100px;
+    /* background-color: rgb(152, 38, 60); */
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: translateY(100%);
+}
+/* #box1{
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+    position: fixed;
+   position: relative;
+    top: 100%;
+    left: 0;
+    transition: top 0.5s ease;
+}
+#box:hover #box1{
+   top: 0;
+} */
+
+/* #data-img{
+    position: fixed;
+    top:30%
+} */
